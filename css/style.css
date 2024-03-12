@@ -181,7 +181,7 @@ body {
   transform: scale(1.5);
 }
 /* Example of Media Query for Mobile Devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     /* Ensure proper viewport settings */
   html, body {
     margin: 0;
