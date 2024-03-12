@@ -252,9 +252,9 @@ body {
   #about-me-container {
     font-size: 18px; /* Decrease font size for smaller screens */
     top: 100%; /* Adjust vertical position */
-    left: 60%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    margin-top: 150px;
+    margin-top: 250px;
 
   }
 
@@ -267,7 +267,7 @@ body {
 
   /* Adjust project container for smaller screens */
   #project-container {
-    margin-top: 270px;
+    margin-top: 400px;
     font-size: 20px; /* Decrease font size for smaller screens */
     top: 120%; /* Adjust vertical position */
   }
