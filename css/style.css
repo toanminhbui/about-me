@@ -204,7 +204,7 @@ body {
     position:absolute;
     font-size: 20px;
     color: white;
-    left: 25%;
+    left: 30%;
     text-align: center; /* Center text on smaller screens */
     margin-bottom: 20px; /* Add spacing between text and buttons */
   }
@@ -226,6 +226,7 @@ body {
   .buttons p {
     margin: 10px 0; /* Add spacing between buttons */
     padding: 10px 20px; /* Adjust button padding */
+    
 
   }
 
