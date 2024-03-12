@@ -180,3 +180,80 @@ body {
 .icon img:hover{
   transform: scale(1.5);
 }
+/* Example of Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  /* Ensure proper viewport settings */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  font-family: sans-serif; /* Default font-family for better cross-browser compatibility */
+}
+
+/* Adjust rotating text for smaller screens */
+.rotating-text {
+  font-size: 24px;
+  color: white;
+  text-align: center; /* Center text on smaller screens */
+  margin-bottom: 20px; /* Add spacing between text and buttons */
+}
+
+/* Adjust buttons for smaller screens */
+.buttons {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px; /* Decrease font size for smaller screens */
+  color: rgb(237, 236, 239);
+  top: 80%; /* Adjust vertical position */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically on smaller screens */
+  align-items: center; /* Center buttons horizontally */
+}
+
+.buttons p {
+  margin: 10px 0; /* Add spacing between buttons */
+  padding: 10px 20px; /* Adjust button padding */
+}
+
+/* Add hover effect to buttons */
+.buttons p:hover {
+  background-color: #bbb7b7;
+  box-shadow: 0 12px 16px 0 rgba(231, 229, 229, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Adjust social icons for smaller screens */
+.socials {
+  position: absolute;
+  top: 70%; /* Adjust vertical position */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add hover effect to social icons */
+.socials a:hover {
+  transform: scale(1.5);
+}
+
+/* Adjust about me container for smaller screens */
+#about-me-container {
+  font-size: 18px; /* Decrease font size for smaller screens */
+  top: 40%; /* Adjust vertical position */
+}
+
+/* Adjust project container for smaller screens */
+#project-container {
+  font-size: 24px; /* Decrease font size for smaller screens */
+  top: 120%; /* Adjust vertical position */
+}
+
+}
