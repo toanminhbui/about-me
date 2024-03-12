@@ -204,7 +204,7 @@ body {
     position:absolute;
     font-size: 20px;
     color: white;
-    left: 35%;
+    left: 25%;
     text-align: center; /* Center text on smaller screens */
     margin-bottom: 20px; /* Add spacing between text and buttons */
   }
