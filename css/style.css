@@ -204,7 +204,7 @@ body {
     position:absolute;
     font-size: 20px;
     color: white;
-    left: 35%;
+    left: 20%;
     text-align: center; /* Center text on smaller screens */
     margin-bottom: 20px; /* Add spacing between text and buttons */
   }
@@ -254,12 +254,12 @@ body {
     top: 100%; /* Adjust vertical position */
     left: 60%;
     transform: translate(-50%, -50%);
-    margin-top: 100px;
+    margin-top: 150px;
 
   }
 
   .about-me-content{
-    font-size: 14px;
+    font-size: 15px;
   }
   .about-me-content img{
     height:100px;
@@ -267,7 +267,7 @@ body {
 
   /* Adjust project container for smaller screens */
   #project-container {
-    margin-top: 200px;
+    margin-top: 270px;
     font-size: 20px; /* Decrease font size for smaller screens */
     top: 120%; /* Adjust vertical position */
   }
