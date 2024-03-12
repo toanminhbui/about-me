@@ -47,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Hide the About Me section initially
     aboutMeSection.style.display = 'none';
-
+    var threshold = window.innerWidth <= 600 ? 20 : 400;
     // Add a scroll event listener to the window
     window.addEventListener('scroll', function() {
         // Check if the user has scrolled past a certain point
-        if (window.scrollY > 400) { // Adjust this value according to your needs
+        if (window.scrollY > threshold) { // Adjust this value according to your needs
             // Show the About Me section
             aboutMeSection.style.display = 'block';
             aboutMeSection.classList.add('fade-in');
