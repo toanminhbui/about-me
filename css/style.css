@@ -63,9 +63,9 @@ body {
   font-family: sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: rgb(149, 100, 228);
+  color: rgb(237, 236, 239);
   top: 30%; /* Adjust this value as per your design */
-  left: 49%;
+  left: 50%;
   transform: translate(-50%, 50%);
   display: flex; /* Use Flexbox */
   justify-content: space-between; /* Distribute items evenly along the main axis */
@@ -79,11 +79,15 @@ body {
   transition-duration: 0.4s;
   text-decoration: none !important;
   display: inline-block;
-  border: 2px solid #e7e7e7;
+  border: 2px solid gray;
   background-color: #222;
   margin: 0;
   padding: 10px 30px;
   border-radius: 10px;
+}
+.click a{
+  color: gray;
+  text-decoration: none !important;
 }
 .socials a{
   margin:0;
@@ -107,7 +111,7 @@ body {
   align-items: center;
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 49.5%;
   transform: translate(-50%, -50%);
 }
 @keyframes fadeIn {
@@ -123,16 +127,52 @@ body {
   animation: fadeIn 1s ease-in-out;
 }
 
-#about-me {
+#about-me-container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 50px;
+  font-size: larger;
   display: flex;
   color:whitesmoke;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Align content vertically */
+  flex-direction: row; /* Align content vertically */
   position: absolute;
-  top: 100%; /* Adjust the value as per your design */
+  top: 120%; /* Adjust the value as per your design */
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#about-me-container h2{
+  font-size: 30px;
+}
+.about-me-content {
+  display: flex;
+  flex-direction: row;
+}
+.me {
+  margin-left: 40px; /* Adjust as per your design */
+  border-radius: 100px;
+}
+#project-container{
+  color: bisque;
+  font-size: 30px;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 180%;
+  /* transform: translate(-50%, -50%); */
 
-  
+} 
+.project-content a{
+  margin:0;
+  padding: 0 30px;
+  border-radius: 50px;
+}
+.icon img{
+  transition-duration: 0.4s;
+  border-radius: 50px;
+}
+.icon img:hover{
+  transform: scale(1.5);
+}

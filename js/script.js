@@ -43,7 +43,7 @@ setInterval(rotateText, 3000);
 // Wait for the DOM content to load
 document.addEventListener('DOMContentLoaded', function() {
     // Get the About Me section element
-    var aboutMeSection = document.getElementById('about-me');
+    var aboutMeSection = document.getElementById('about-me-container');
 
     // Hide the About Me section initially
     aboutMeSection.style.display = 'none';
