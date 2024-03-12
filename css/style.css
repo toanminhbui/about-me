@@ -181,7 +181,7 @@ body {
   transform: scale(1.5);
 }
 /* Example of Media Query for Mobile Devices */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     /* Ensure proper viewport settings */
   html, body {
     margin: 0;
@@ -202,7 +202,7 @@ body {
   .rotating-text {
     display:flex;
     position:absolute;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     left: 35%;
     text-align: center; /* Center text on smaller screens */
