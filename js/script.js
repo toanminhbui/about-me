@@ -39,4 +39,26 @@ let rotateText = () => {
 };
 
 rotateText();
+// Wait for the DOM content to load
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the About Me section element
+  var aboutMeSection = document.getElementById('about-me');
+
+  // Hide the About Me section initially
+  aboutMeSection.style.display = 'none';
+
+  // Add a scroll event listener to the window
+  window.addEventListener('scroll', function() {
+      // Check if the user has scrolled past a certain point
+      if (window.scrollY > 200) { // Adjust this value according to your needs
+          // Show the About Me section
+          aboutMeSection.style.display = 'block';
+      } else {
+          // Hide the About Me section if the user scrolls back up
+          aboutMeSection.style.display = 'none';
+      }
+  });
+});
+
 setInterval(rotateText, 3000);
+

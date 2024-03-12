@@ -85,12 +85,6 @@ body {
   padding: 10px 30px;
   border-radius: 10px;
 }
-.socials{
-  position: absolute;
-  top: 60%; /* Adjust this value as per your design */
-  left: 49%;
-  transform: translate(-50%, 50%);
-}
 .socials a{
   margin:0;
   padding: 5px 30px;
@@ -104,3 +98,28 @@ body {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(235, 233, 233, 0.19);
 }
 
+.spacer {
+  height: 3000px; /* Set the height to exceed the viewport height */
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Align content vertically */
+  position: absolute;
+  top: 70%; /* Adjust the value as per your design */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  
