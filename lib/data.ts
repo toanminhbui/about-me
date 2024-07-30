@@ -1,11 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { Bs1CircleFill } from "react-icons/bs";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import lasso from "@/public/lasso.png";
+import helpmecook from "@/public/helpmecook.png";
+import secondbrain from "@/public/secondbrain.png"
+import price_comparsion from "@/public/price_comparison.jpg"
+import { link } from "fs";
 export const links = [
   {
     name: "Home",
@@ -35,52 +37,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "University Of Michigan",
+    location: "Ann Arbor, MI",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently studying to be a computer engineer, taking a blend of hardware and algorithms with a splash of math, economics, and philosophy",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineering Intern",
+    location: "San Mateo, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      `I worked as a software engineering intern for LassoLoop Recycling, a startup at the forefront of in-house recycling solution. Created the demo app to demonstrate capabilities of the Lasso`,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Summer 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Learner",
+    location: "Everywhere, Earth",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "While pursuing my degree, I am also committed to immersing myself in the dynamic world of technology in America. As a fast learner and highly self-disciplined individual, my goal is bring ideas from 0-1.",
+    icon: React.createElement(Bs1CircleFill),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "LassoLoop Recycling",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a front-end software engineer intern, developing the lasso web application to demo our ML model used to classify waste at LACIE 2024.",
+    tags: ["React", "React Native", "Expo", "TypeScript", "Reduxjs"],
+    imageUrl: lasso,
+    link: "https://www.lassoloop.com/"
   },
   {
-    title: "rmtDev",
+    title: "SecondBrain",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Live repository for anything Michigan. Learn about things happening right now, or get some guidance to navigate college life",
+    tags: ["React", "Next.js", "Render", "Vercel", "FastAPI", "REST API", "MongoDB", "RAG"],
+    imageUrl: secondbrain,
+    link: "https://smart-thoughts.vercel.app/secondbrain",
   },
   {
-    title: "Word Analytics",
+    title: "HelpMeCook",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Recipe Generator for people who wants to explore. Specify some allergies and food type, and receive random recipes to try",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Edamam API"],
+    imageUrl: helpmecook,
+    link: "https://helpmecook.vercel.app/"
+  },
+  {
+    title: "Price Comparitor",
+    description:
+      "Price Comparison helper using beautifulsoup and selenium to scrape and compare prices of items between multiple Vietnamese marketplaces, leading to up to 50% in savings",
+    tags: ["Python", "BeautifulSoup", "Selenium"],
+    imageUrl: price_comparsion,
+    link: "https://github.com/toanminhbui/price_comp"
   },
 ] as const;
 
@@ -89,19 +102,18 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "C++",
+  "Python",
+  "Java",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "BeautifulSoup",
+  "Selenium",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "FastAPI",
 ] as const;
