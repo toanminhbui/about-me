@@ -25,15 +25,13 @@ export default function About() {
         <span className="bold"> technology</span> and <span className="bold">business</span>.
         Passionate about navigating the dynamic world of <span className="underline">startups </span>
         and exploring the depths of <span className="underline">engineering</span>
-        , I thrive on challenges that drive <span className="highlight">innovation</span>
+        , I thrive on challenges that drive <span className="underline">innovation </span>
         and <span className="highlight">adaptability</span>. My academic journey and practical experiences are focused on leveraging cutting-edge technology to address 
-        <span className="highlight">complex problems</span> and contribute meaningfully to the evolving landscape of technological advancement.
+        <span className="underline"> complex problems</span> and contribute meaningfully to the evolving landscape of technological advancement.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>
+        <span className="italic">Outside of technology</span>, You can find me hiking on the gorgeous national park trails and watching Lalaland for the umpteenth time
       </p>
     </motion.section>
   );
