@@ -7,6 +7,7 @@ import lasso from "@/public/lasso.png";
 import helpmecook from "@/public/helpmecook.png";
 import secondbrain from "@/public/secondbrain.png"
 import price_comparsion from "@/public/price_comparison.jpg"
+import stockifyai from "@/public/stockify.png"
 import { link } from "fs";
 export const links = [
   {
@@ -72,12 +73,12 @@ export const projectsData = [
     link: "https://www.lassoloop.com/"
   },
   {
-    title: "SecondBrain",
+    title: "CampusKorners",
     description:
       "Live repository for anything Michigan. Learn about things happening right now, or get some guidance to navigate college life",
     tags: ["React", "Next.js", "Render", "Vercel", "FastAPI", "REST API", "MongoDB", "RAG"],
     imageUrl: secondbrain,
-    link: "https://smart-thoughts.vercel.app/secondbrain",
+    link: "https://campuskorners.com/",
   },
   {
     title: "HelpMeCook",
@@ -88,12 +89,20 @@ export const projectsData = [
     link: "https://helpmecook.vercel.app/"
   },
   {
-    title: "Price Comparitor",
+    title: "Price Comparator",
     description:
       "Price Comparison helper using beautifulsoup and selenium to scrape and compare prices of items between multiple Vietnamese marketplaces, leading to up to 50% in savings",
     tags: ["Python", "BeautifulSoup", "Selenium"],
     imageUrl: price_comparsion,
     link: "https://github.com/toanminhbui/price_comp"
+  },
+  {
+    title: "StockifyAI",
+    description:
+      "Stock tracker made for everyday people. summarize up to date news on every tickers, and analyze the sentiment of the news to explain market movements",
+    tags: ["Python", "NextJS", "LLM"],
+    imageUrl: stockifyai,
+    link: "https:stockifyai.vercel.app"
   },
 ] as const;
 
