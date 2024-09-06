@@ -102,7 +102,7 @@ export const projectsData = [
       "Stock tracker made for everyday people. summarize up to date news on every tickers, and analyze the sentiment of the news to explain market movements",
     tags: ["Python", "NextJS", "LLM"],
     imageUrl: stockifyai,
-    link: "https:stockifyai.vercel.app"
+    link: "https://stockifyai.vercel.app/"
   },
 ] as const;
 
